@@ -1,5 +1,5 @@
 # How to accelerate deep spiking neural networks with recurrent API from Keras/Tensorflow
-### by Lynn K.A. Sörensen, Bojian Yin & Sander M. Bohté
+### by Lynn K.A. Sörensen, Bojian Yin, H.Steven Scholte & Sander M. Bohté
 
 ## Background
 Spiking deep neural networks are attractive for deep learning for their biological realism and sparse activations, making them more efficient in how they represent activation. Recently, it has become possible to convert common deep convolutional neural networks trained with a specific activation function instead of a ReLU into a deep spiking network after training (e.g. [Zambrano et al. 2018](https://www.frontiersin.org/articles/10.3389/fnins.2018.00987/full); [Rueckauer et al. 2016](https://arxiv.org/abs/1612.04052)). Developments like this fuel the surge in new applications using spiking deep neural networks for artificial vision and event-based processing (e.g. [Mueggler, Huber & Scaramuzza, 2014](https://ieeexplore.ieee.org/abstract/document/6942940)). 
